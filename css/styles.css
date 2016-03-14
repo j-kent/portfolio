@@ -1,0 +1,101 @@
+.portfolio-max-width {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.portfolio-accent-color {
+    color: #6A7C84;
+}
+
+.portfolio-primary-color {
+    color: #FF6E40;
+}
+
+.portfolio-description {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.mdl-chip {
+    background: rgb(224,224,224);
+    color: #424242;
+    display: block;
+    float: left;
+    white-space: nowrap;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 16px;
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    margin: 8px 8px 0 0;
+    padding: 0 12px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* Header */
+
+.header-title {
+    text-decoration: none;
+}
+
+.mdl-layout .mdl-layout__header {
+      background: #fff;
+}
+
+.mdl-navigation svg path {
+    fill: #424242;
+}
+
+.mdl-navigation svg:hover path {
+    fill: #FF6E40;
+}
+
+
+.mdl-layout__content {
+    background: #fafafa;
+}
+
+/* Grid */
+.mdl-cell {
+    padding: 10px;
+}
+
+/* Cards */
+.portfolio-card {
+    background: transparent;
+}
+
+.mdl-card__media {
+    padding: 10px;
+    background: #fff;
+}
+
+.mdl-card__title {
+    padding-left: 3px;
+}
+
+.mdl-card__title-text {
+    font-size: 18px;
+}
+
+img.article-image {
+    width: 100%;
+    height: auto;
+}
+
+/* Project Pages */
+.section-header {
+    color: #FF6E40;
+    padding: 40px 0 0 10px;
+}
+
+.mdl-tooltip + .article-image {
+    margin-top: 40px;
+}
