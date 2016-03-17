@@ -99,3 +99,20 @@ img.article-image {
 .mdl-tooltip + .article-image {
     margin-top: 40px;
 }
+
+/*iframe demo*/
+
+.prototype-container {
+    border-radius: 20px;
+    padding: 40px 10px;
+    border: 1px solid #aaa;
+    width: 540px;
+    box-shadow: 5px 5px 25px #ccc;
+}
+
+.prototype-container iframe {
+    border: 1px solid #aaa;
+    height: 960px;
+    overflow: hidden;
+    width: 540px;
+}
