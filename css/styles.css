@@ -64,21 +64,21 @@
 
 /* Grid */
 .mdl-cell {
-    padding: 10px;
+    /*padding: 10px;*/
 }
 
 /* Cards */
 .portfolio-card {
-    background: transparent;
+    /*background: transparent;*/
 }
 
 .mdl-card__media {
-    padding: 10px;
+    /*padding: 10px;*/
     background: #fff;
 }
 
 .mdl-card__title {
-    padding-left: 3px;
+    /*padding-left: 3px;*/
 }
 
 .mdl-card__title-text {
