@@ -69,7 +69,7 @@ a {
     display: block;
     height: 32px;
     line-height: 32px;
-    margin: 8px 8px 0 0;
+    margin: 0 8px 8px 0;
     padding: 0 12px;
     box-sizing: border-box;
     position: relative;
@@ -96,23 +96,18 @@ a {
 .mdl-navigation svg:hover path {
     fill: #7fa0ae;
 }
-
-
-.mdl-layout__content {
-    /*background: #fafafa;*/
+.mdl-layout__drawer-button i {
+  color: white;
+  background: #7fa0ae;
 }
 
 /* Hero Header */
-.hero-header .mdl-layout__header {
+.hero-header .hero {
    background: url(../images/trees.jpg) center bottom / cover;
    background-attachment: fixed;
    padding: 150px 0 214px 0;
    margin-bottom: 60px;
 }
-.hero-header .mdl-layout__drawer-button {
-  color: white;
-}
-
 
 /* Hero */
 .hero {
@@ -127,6 +122,27 @@ a {
 .hero h1 span {
     border: 6px double #fff;
     padding: 0 0 0 30px;
+    position: relative;
+}
+.hero h1 span:before {
+    content: "";
+    width: 11px;
+    height: 50px;
+    position: absolute;
+    border: 6px double #fff;
+    border-right: 0;
+    top: 17px;
+    left: -22px;
+}
+.hero h1 span:after {
+    content: "";
+    width: 11px;
+    height: 50px;
+    position: absolute;
+    border: 6px double #fff;
+    border-left: 0;
+    top: 17px;
+    right: -22px;
 }
 .hero p {
     font-size: 18px;
@@ -140,6 +156,15 @@ a {
     width: 35px;
     fill: #fff;
     height: 35px;
+}
+
+.is-small-screen .hero h1 {
+    font-size: 40px;
+}
+.is-small-screen .hero h1 span:after,
+.is-small-screen .hero h1 span:before
+{
+    display: none;
 }
 /* Grid */
 .mdl-cell {
@@ -164,8 +189,13 @@ img.article-image {
 
 /* Project Pages */
 .section-header {
-    color: #FF6E40;
+    font-family: 'Roboto Slab', serif;
+    color: #7fa0ae;
     padding: 40px 0 0 10px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-bottom:  1px solid #ccc;
 }
 
 .mdl-tooltip + .article-image {
