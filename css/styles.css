@@ -1,3 +1,39 @@
+h1 {
+    font-family: 'Roboto Slab', serif;
+}
+
+a {
+    color: #7fa0ae;
+}
+
+.mdl-typography--headline {
+    font-family: 'Roboto Slab', serif;
+    color: #555;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-bottom:  1px solid #ccc;
+    margin-bottom: 40px;
+}
+
+.mdl-button--primary {
+    border: 3px double #607D8B;
+    color: #607D8B;
+    border-radius: 0;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    height: 28px;
+    line-height: 28px;
+    letter-spacing: 0.5em;
+    padding: 0 7px 0 16px;
+    margin-bottom: 10px;
+}
+
+.mdl-button:hover {
+    background-color: #7fa0ae;
+    color: #fff;
+}
+
 .portfolio-max-width {
   max-width: 1000px;
   margin: auto;
@@ -8,7 +44,7 @@
 }
 
 .portfolio-primary-color {
-    color: #FF6E40;
+    color: #7fa0ae;;
 }
 
 .portfolio-description {
@@ -49,40 +85,76 @@
       background: #fff;
 }
 
+.mdl-layout__drawer-button {
+    color: #7fa0ae;
+}
+
 .mdl-navigation svg path {
     fill: #424242;
 }
 
 .mdl-navigation svg:hover path {
-    fill: #FF6E40;
+    fill: #7fa0ae;
 }
 
 
 .mdl-layout__content {
-    background: #fafafa;
+    /*background: #fafafa;*/
 }
 
+/* Hero Header */
+.hero-header .mdl-layout__header {
+   background: url(../images/trees.jpg) center bottom / cover;
+   background-attachment: fixed;
+   padding: 150px 0 214px 0;
+   margin-bottom: 60px;
+}
+.hero-header .mdl-layout__drawer-button {
+  color: white;
+}
+
+
+/* Hero */
+.hero {
+    text-align: center;
+    color: #fff;
+}
+.hero h1 {
+    font-size: 70px;
+    font-weight: 100;
+    letter-spacing: 0.5em;
+}
+.hero h1 span {
+    border: 6px double #fff;
+    padding: 0 0 0 30px;
+}
+.hero p {
+    font-size: 18px;
+    font-weight: 300;
+}
+.hero .mdl-navigation__link {
+    opacity: 1;
+}
+.hero .mdl-navigation__link svg {
+    margin: 0 10px;
+    width: 35px;
+    fill: #fff;
+    height: 35px;
+}
 /* Grid */
 .mdl-cell {
     /*padding: 10px;*/
 }
 
-/* Cards */
-.portfolio-card {
-    /*background: transparent;*/
+/* portfolio links */
+.portfolio-link {
+    margin-bottom: 20px;
 }
-
-.mdl-card__media {
-    /*padding: 10px;*/
-    background: #fff;
+.portfolio-link h4 {
+    margin: 0;
 }
-
-.mdl-card__title {
-    /*padding-left: 3px;*/
-}
-
-.mdl-card__title-text {
-    font-size: 18px;
+.portfolio-link p {
+    margin: 0 0 10px 0;
 }
 
 img.article-image {
