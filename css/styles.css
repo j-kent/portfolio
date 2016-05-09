@@ -56,6 +56,10 @@ a {
     margin: 0;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .mdl-chip {
     background: rgb(224,224,224);
     color: #424242;
@@ -181,6 +185,10 @@ a {
 .portfolio-link p {
     margin: 0 0 10px 0;
 }
+.portfolio-link .mdl-button + p {
+    margin-top: 10px;
+}
+
 
 img.article-image {
     width: 100%;
