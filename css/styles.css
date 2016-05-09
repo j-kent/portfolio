@@ -107,13 +107,35 @@ a {
 
 /* Hero Header */
 .hero-header .hero {
-   background: url(../images/trees.jpg) center bottom / cover;
+   background: #3E3D45;
    background-attachment: fixed;
    padding: 150px 0 214px 0;
    margin-bottom: 60px;
+   position: relative;
 }
 
-/* Hero */
+.hero .trees {
+    animation: fade-in 3s 1;
+    background: url(../images/trees.jpg) center bottom / cover;
+    background-attachment: fixed;
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 .hero {
     text-align: center;
     color: #fff;
@@ -122,6 +144,8 @@ a {
     font-size: 70px;
     font-weight: 100;
     letter-spacing: 0.5em;
+    position: relative;
+    z-index: 2;
 }
 .hero h1 span {
     border: 6px double #fff;
@@ -151,6 +175,12 @@ a {
 .hero p {
     font-size: 18px;
     font-weight: 300;
+    position: relative;
+    z-index: 2;
+}
+.hero .contact {
+    position: relative;
+    z-index: 2;
 }
 .hero .mdl-navigation__link {
     opacity: 1;
