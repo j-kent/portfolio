@@ -1,0 +1,19 @@
+.main-content {
+	margin-top: 60px;
+}
+.section-header {
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+.article-feed-col {
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+.article-feed-container .media:hover {
+	background: #eee;
+	cursor: pointer;
+}
+.article-feed-container .row {
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px;
+}
