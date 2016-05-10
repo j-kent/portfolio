@@ -1,6 +1,29 @@
-.main-content {
-	margin-top: 60px;
+.navbar {
+	border-radius: 0;
+	margin-bottom: 10px;
 }
+
+.navbar-inverse {
+	background: url(bg.jpg) 0 0;
+	border: 0;
+}
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    border-bottom: 5px solid #000;
+    padding-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    background: url(bg.jpg)  0 -400px;
+}
+
+.main-content {}
 .section-header {
 	border-bottom: 1px solid #ccc;
 	margin-bottom: 10px;
