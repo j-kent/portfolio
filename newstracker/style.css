@@ -39,4 +39,14 @@
 .article-feed-container .row {
 	border-bottom: 1px solid #ccc;
 	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+/*MEDIA*/
+.media {
+	padding: 5px;
+	border-radius: 3px;
+}
+.media-body .byline {
+	margin: 0;
 }
